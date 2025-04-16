@@ -6,7 +6,7 @@ export const GENERAL_INFO = {
     emailSubject: "Let's collaborate on a project",
     emailBody: 'Hi Mobin, I am reaching out to you because...',
 
-    oldPortfolio: 'https://www.legacy.me.toinfinite.dev',
+    oldPortfolio: 'https://mobinmithun.weebly.com',
 };
 
 export const SOCIAL_LINKS = [
