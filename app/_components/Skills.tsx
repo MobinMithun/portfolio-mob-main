@@ -5,7 +5,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import Image from 'next/image';
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
@@ -67,7 +67,14 @@ const Skills = () => {
                         <div className="grid sm:grid-cols-12" key={key}>
                             <div className="sm:col-span-5">
                                 <p className="slide-up text-5xl font-anton leading-none text-muted-foreground uppercase">
-                                    {key}
+                                    {key
+                                        .replace(/_/g, ' ')
+                                        .split(' ')
+                                        .map((word, index) => (
+                                            <span key={index} className="block">
+                                                {word}
+                                            </span>
+                                        ))}
                                 </p>
                             </div>
 

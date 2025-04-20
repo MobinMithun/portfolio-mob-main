@@ -17,7 +17,7 @@ export const SOCIAL_LINKS = [
 ];
 
 export const MY_STACK = {
-    frontend: [
+    product_documentation: [
         {
             name: 'Notion',
             icon: '/logo/jira.svg',
@@ -59,7 +59,7 @@ export const MY_STACK = {
             icon: '/logo/bootstrap.svg',
         },
     ],
-    backend: [
+    data_analytics: [
         {
             name: 'Google Analytics',
             icon: '/logo/node.png',
@@ -80,9 +80,9 @@ export const MY_STACK = {
             name: 'Hotjar',
             icon: '/logo/express.png',
         },
-        
+
     ],
-    database: [
+    design_prototyping: [
         {
             name: 'Figma',
             icon: '/logo/mysql.svg',
@@ -100,7 +100,7 @@ export const MY_STACK = {
             icon: '/logo/prisma.png',
         },
     ],
-    tools: [
+    collaboration: [
         {
             name: 'Slack',
             icon: '/logo/git.png',

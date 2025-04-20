@@ -43,19 +43,20 @@ const Banner = () => {
                 <div className="max-md:grow max-md:flex flex-col justify-center items-start max-w-[544px]">
                     <h1 className="banner-title slide-up-and-fade leading-[.95] text-6xl sm:text-[80px] font-anton">
                         <span className="text-primary">PRODUCT</span>
-                        <br/> <span className="ml-4">MANAGER</span>
+                        <br /> <span className="ml-4">MANAGER</span>
                     </h1>
-                    <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
+                    <div className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
                         Hi! I&apos;m{' '}
                         <span className="font-medium text-foreground">
                             Mobin
                         </span>
                         . A creative Product Manager with 1 year of experience
-                        in fintech, driving product development, market research,
-                        and cross-functional collaboration to build innovative, scalable,
-                        and impactful digital solutions. Passionate about product design
-                        and delivering business solutions that make a difference.
-                    </p>
+                        in fintech, driving product development, market
+                        research, and cross-functional collaboration to build
+                        innovative, scalable, and impactful digital solutions.
+                        Passionate about product design and delivering business
+                        solutions that make a difference.
+                    </div>
                     <Button
                         as="link"
                         target="_blank"
