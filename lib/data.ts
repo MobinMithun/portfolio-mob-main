@@ -19,31 +19,31 @@ export const SOCIAL_LINKS = [
 export const MY_STACK = {
     frontend: [
         {
-            name: 'Javascript',
-            icon: '/logo/js.png',
+            name: 'Notion',
+            icon: '/logo/jira.svg',
         },
         {
-            name: 'Typescript',
+            name: 'GitHub',
             icon: '/logo/ts.png',
         },
         {
-            name: 'React',
+            name: 'Jira',
             icon: '/logo/react.png',
         },
         {
-            name: 'Next.js',
+            name: 'Trello',
             icon: '/logo/next.png',
         },
         {
-            name: 'Redux',
+            name: 'GitBook',
             icon: '/logo/redux.png',
         },
         {
-            name: 'Tailwind CSS',
+            name: 'Confluence',
             icon: '/logo/tailwind.png',
         },
         {
-            name: 'GSAP',
+            name: 'n8n',
             icon: '/logo/gsap.png',
         },
         {
@@ -61,47 +61,56 @@ export const MY_STACK = {
     ],
     backend: [
         {
-            name: 'Node.js',
+            name: 'Google Analytics',
             icon: '/logo/node.png',
         },
         {
-            name: 'Nest.js',
+            name: 'Mixpanle',
             icon: '/logo/nest.svg',
         },
         {
-            name: 'Express.js',
+            name: 'Clarity',
             icon: '/logo/express.png',
         },
+        {
+            name: 'Amplitude',
+            icon: '/logo/express.png',
+        },
+        {
+            name: 'Hotjar',
+            icon: '/logo/express.png',
+        },
+        
     ],
     database: [
         {
-            name: 'MySQL',
+            name: 'Figma',
             icon: '/logo/mysql.svg',
         },
         {
-            name: 'PostgreSQL',
+            name: 'Miro',
             icon: '/logo/postgreSQL.png',
         },
         {
-            name: 'MongoDB',
+            name: 'Adobe XD',
             icon: '/logo/mongodb.svg',
         },
         {
-            name: 'Prisma',
+            name: 'Canva',
             icon: '/logo/prisma.png',
         },
     ],
     tools: [
         {
-            name: 'Git',
+            name: 'Slack',
             icon: '/logo/git.png',
         },
         {
-            name: 'Docker',
+            name: 'Discord',
             icon: '/logo/docker.svg',
         },
         {
-            name: 'AWS',
+            name: 'Teams',
             icon: '/logo/aws.png',
         },
     ],
