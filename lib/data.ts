@@ -17,101 +17,85 @@ export const SOCIAL_LINKS = [
 ];
 
 export const MY_STACK = {
-    frontend: [
+    product_documentation: [
         {
             name: 'Notion',
-            icon: '/logo/jira.svg',
+            icon: '/logo/notion.png',
         },
         {
             name: 'GitHub',
-            icon: '/logo/ts.png',
+            icon: '/logo/github.png',
         },
         {
             name: 'Jira',
-            icon: '/logo/react.png',
+            icon: '/logo/jira.png',
         },
         {
             name: 'Trello',
-            icon: '/logo/next.png',
+            icon: '/logo/trello.png',
         },
         {
             name: 'GitBook',
-            icon: '/logo/redux.png',
+            icon: '/logo/gitbook.jpeg',
         },
         {
             name: 'Confluence',
-            icon: '/logo/tailwind.png',
+            icon: '/logo/confluence.png',
         },
         {
             name: 'n8n',
-            icon: '/logo/gsap.png',
-        },
-        {
-            name: 'Frammer Motion',
-            icon: '/logo/framer-motion.png',
-        },
-        {
-            name: 'SASS',
-            icon: '/logo/sass.png',
-        },
-        {
-            name: 'Bootstrap',
-            icon: '/logo/bootstrap.svg',
+            icon: '/logo/n8n.png',
         },
     ],
-    backend: [
+    data_analytics: [
         {
             name: 'Google Analytics',
-            icon: '/logo/node.png',
+            icon: '/logo/google analytics.png',
         },
         {
-            name: 'Mixpanle',
-            icon: '/logo/nest.svg',
+            name: 'Mixpanel',
+            icon: '/logo/mixpanel.png',
         },
         {
             name: 'Clarity',
-            icon: '/logo/express.png',
+            icon: '/logo/clarity.png',
         },
         {
             name: 'Amplitude',
-            icon: '/logo/express.png',
+            icon: '/logo/amplitude.png',
         },
         {
             name: 'Hotjar',
-            icon: '/logo/express.png',
+            icon: '/logo/hotjar.png',
         },
         
     ],
-    database: [
+    design: [
         {
             name: 'Figma',
-            icon: '/logo/mysql.svg',
+            icon: '/logo/figma.png',
         },
         {
             name: 'Miro',
-            icon: '/logo/postgreSQL.png',
+            icon: '/logo/miro.svg',
         },
         {
             name: 'Adobe XD',
-            icon: '/logo/mongodb.svg',
+            icon: '/logo/adobe_XD.png',
         },
         {
             name: 'Canva',
-            icon: '/logo/prisma.png',
+            icon: '/logo/canva.jpeg',
         },
     ],
     tools: [
         {
             name: 'Slack',
-            icon: '/logo/git.png',
+            icon: '/logo/slack.png',
         },
         {
             name: 'Discord',
-            icon: '/logo/docker.svg',
-        },
-        {
-            name: 'Teams',
-            icon: '/logo/aws.png',
+            icon: '/logo/discord.png',
         },
     ],
 };
