@@ -17,7 +17,7 @@ export const SOCIAL_LINKS = [
 ];
 
 export const MY_STACK = {
-    product_documentation: [
+    documentation: [
         {
             name: 'Notion',
             icon: '/logo/notion.png',
@@ -42,12 +42,9 @@ export const MY_STACK = {
             name: 'Confluence',
             icon: '/logo/confluence.png',
         },
-        {
-            name: 'n8n',
-            icon: '/logo/n8n.png',
-        },
+
     ],
-    data_analytics: [
+    analytics: [
         {
             name: 'Google Analytics',
             icon: '/logo/google analytics.png',
@@ -70,7 +67,7 @@ export const MY_STACK = {
         },
         
     ],
-    design: [
+    prototyping: [
         {
             name: 'Figma',
             icon: '/logo/figma.png',
@@ -88,7 +85,7 @@ export const MY_STACK = {
             icon: '/logo/canva.jpeg',
         },
     ],
-    tools: [
+    collaboration: [
         {
             name: 'Slack',
             icon: '/logo/slack.png',
@@ -96,6 +93,10 @@ export const MY_STACK = {
         {
             name: 'Discord',
             icon: '/logo/discord.png',
+        },
+        {
+            name: 'n8n',
+            icon: '/logo/n8n.png',
         },
     ],
 };
