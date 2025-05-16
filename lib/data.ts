@@ -17,7 +17,7 @@ export const SOCIAL_LINKS = [
 ];
 
 export const MY_STACK = {
-    documentation: [
+    frontend: [
         {
             name: 'Notion',
             icon: '/logo/notion.png',
@@ -42,9 +42,16 @@ export const MY_STACK = {
             name: 'Confluence',
             icon: '/logo/confluence.png',
         },
-
+        {
+            name: 'SASS',
+            icon: '/logo/sass.png',
+        },
+        {
+            name: 'Bootstrap',
+            icon: '/logo/bootstrap.svg',
+        },
     ],
-    analytics: [
+    backend: [
         {
             name: 'Google Analytics',
             icon: '/logo/google analytics.png',
@@ -65,9 +72,9 @@ export const MY_STACK = {
             name: 'Hotjar',
             icon: '/logo/hotjar.png',
         },
-        
+
     ],
-    prototyping: [
+    database: [
         {
             name: 'Figma',
             icon: '/logo/figma.png',
