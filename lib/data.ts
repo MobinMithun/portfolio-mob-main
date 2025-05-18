@@ -93,25 +93,24 @@ export const MY_STACK = {
             name: 'Discord',
             icon: '/logo/discord.png',
         },
-        {
-            name: 'n8n',
-            icon: '/logo/n8n.png',
-        },
+    ],
+        automation: [
+            {
+                name: 'n8n',
+                icon: '/logo/n8n.png',
+            },
     ],
 };
 
 export const PROJECTS: IProject[] = [
     {
-        title: 'Epikcart',
-        slug: 'epikcart',
+        title: 'OGRO',
+        slug: 'ogro',
         techStack: [
-            'React',
-            'Redux',
-            'React i18n',
-            'Tailwind CSS',
-            'Framer Motion',
-            'debouncing',
-            'Api Integration',
+            'Figma',
+            'Notion',
+            'FigJam',
+            'Canva',
         ],
         thumbnail: '/projects/thumbnail/epikcart.jpg',
         longThumbnail: '/projects/long/epikcart.jpg',
@@ -122,10 +121,16 @@ export const PROJECTS: IProject[] = [
             '/projects/images/epikcart-4.png',
             '/projects/images/epikcart-5.png',
         ],
-        liveUrl: 'https://demo.epikcart.siphertech.com/',
-        year: 2023,
-        description: `Epikcart is a feature-rich, scalable e-commerce platform tailored for large businesses. It features dynamic product filtering, multi-language support with RTL, advanced inventory management, order tracking, and refund systems, offering a comprehensive solution for multi-vendor operations.`,
-        role: `As the frontend developer in a team of five, I:\n- Built the frontend from scratch using React, Redux, RTK Query, and Tailwind CSS.\n- Developed dynamic filtering logic for the product search page with admin-configurable parameters.\n- Integrated multi-language support with React i18n, including RTL handling.\n- Delivered a responsive, user-friendly interface in collaboration with the UI/UX designer.\n`,
+        liveUrl: 'https://play.google.com/store/apps/details?id=global.wegro.wegroapp&hl=en&gl=US',
+        year: 2024,
+        description: `OGRO is a comprehensive field operations and monitoring platform built for WeGro’s agriculture investment ecosystem. It enables Field Officers (FO), Area Managers (AM), and Regional Managers (RM) to manage farmer onboarding, input distribution, loan agreements, and repayment tracking. The app includes dynamic role-based workflows, multilingual interface, data validation layers, and real-time dashboards for operational oversight. It bridges field data with centralized decision-making, supporting transparency and accountability across WeGro’s agri-finance operations.`,
+        role: `As the Product Manager of the OGRO App, I:\n
+- Designed the entire UI/UX of the OGRO mobile app using Figma, tailored for multilingual rural users with distinct user roles (FO, AM, RM, HOO).\n
+- Defined and mapped out all operational workflows across modules like farmer application, loan approval, input selection, and collection tracking.\n
+- Built structured process maps to optimize onboarding, loan agreement validation, and repayment cycles.\n
+- Architected dynamic logic flows and multi-stage approvals between field officers and central WeGro staff.\n
+- Collaborated closely with engineering and field operations to ensure the app aligned with real-world usability and internal business logic.\n
+- Led content development for user manual, video tutorials, and online training modules to support large-scale deployment.\n`,
     },
     {
         title: 'Resume Roaster',
@@ -213,23 +218,8 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Software Engineer (Frontend)',
-        company: 'Strativ AB',
-        duration: 'Dec 2024 - Present',
-    },
-    {
-        title: 'Frontend Developer',
-        company: 'Epikcoders',
-        duration: 'Oct 2023 - Nov 2024',
-    },
-    {
-        title: 'FRONTEND ENGINEER',
-        company: 'Anchorblock Technology',
-        duration: 'Oct 2022 - Sep 2023',
-    },
-    {
-        title: 'Frontend Developer (Part-time)',
-        company: 'Branex IT',
-        duration: 'Jan 2022 - Oct 2022',
+        title: 'Jr. Product Manager',
+        company: 'WeGro',
+        duration: 'Nov 2023 - Present',
     },
 ];
